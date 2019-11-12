@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BoardComponent } from './board/board.component';
 import { StudentItemComponent } from './student-item/student-item.component';
 import {FormsModule} from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {FormsModule} from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
