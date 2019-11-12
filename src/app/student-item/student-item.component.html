@@ -1,0 +1,29 @@
+<div [class.Item]="true" *ngIf="isInput">
+  <input placeholder="First Name" [(ngModel)]="studentInfo.firstName">
+  <input placeholder="Last Name" [(ngModel)]="studentInfo.lastName">
+  <input placeholder="Sur Name" [(ngModel)]="studentInfo.surName">
+  <input type="date" max="2020-00-00" [(ngModel)]="studentInfo.date"/>
+  <select [(ngModel)]="studentInfo.performance">
+    <option value="Excellent">Excellent</option>
+    <option value="Good">Good</option>
+    <option value="Normal">Normal</option>
+    <option value="Bad">Bad</option>
+  </select>
+  <button (click)="editStudent()">Save</button>
+</div>
+
+<div [class.ItemInfo]="true" *ngIf="!isInput">
+
+  <label>{{studentInfo.firstName}}</label>
+  <label>{{studentInfo.lastName}}</label>
+  <label>{{studentInfo.surName}}</label>
+  <label>{{studentInfo.date.toString()}}</label>
+  <label>{{studentInfo.performance}}</label>
+  <div [class.infoButtons]="true">
+    <button (click)="editStudent()">Edit</button>
+    <button (click)="removeStudent()">Remove</button>
+  </div>
+
+</div>
+
+

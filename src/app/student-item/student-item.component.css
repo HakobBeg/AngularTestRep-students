@@ -1,0 +1,82 @@
+.Item
+{
+  margin-top: 3%;
+  width: 92%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 10px;
+
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 13px;
+  color: rgba(47,47,66,0.62);
+}
+
+.Item input,button,select
+{
+  width: 15%;
+  height: 70%;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 13px;
+  color: rgba(131, 131, 131, 0.62);
+  margin-top: 0.5%;
+  margin-left: 1%;
+  font-family: Georgia;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+.Item button
+{
+  color: black;
+  border-color:rgba(131, 131, 131, 0.62); ;
+}
+
+
+.ItemInfo
+{
+  margin-top: 3%;
+  width: 92%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 10px;
+
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 13px;
+  color: rgba(47,47,66,0.62);
+}
+
+.ItemInfo label
+{
+  width: 15%;
+  height: 70%;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 13px;
+  color: rgba(131, 131, 131, 0.62);
+  margin-top: 0.5%;
+  margin-left: 1%;
+  font-family: Georgia;
+  font-size: 24px;
+  text-align: center;
+  display: inline-block;
+}
+
+.ItemInfo button
+{
+width: 50px;
+}
+
+.infoButtons
+{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 15%;
+}

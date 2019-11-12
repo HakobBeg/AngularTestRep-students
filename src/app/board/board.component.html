@@ -1,0 +1,7 @@
+<h1>Students</h1>
+
+<div [class.Board]="true">
+
+  <app-student-item [studentInfo]="" [isInput]="true"></app-student-item>
+  <app-student-item *ngFor="let std of students" [studentInfo]="std"></app-student-item>
+</div>
